@@ -1,0 +1,202 @@
+{
+    "displayedColumns": [
+      {
+        "id": "id",
+        "headerValue": "ID"
+      },
+      {
+        "id": "title",
+        "headerValue": "Task Name"
+      },
+      {
+        "id": "dtStart",
+        "headerValue": "Created on"
+      },
+      {
+        "id": "dtTarget",
+        "headerValue": "Due Date"
+      },
+      {
+        "id": "taskType",
+        "headerValue": "Type"
+      },
+      {
+        "id": "status",
+        "headerValue": "Status"
+      },
+      {
+        "id": "actions",
+        "headerValue": "Actions"
+      }
+    ],
+    "dataSource": [
+      {
+        "id": "1",
+        "title": "Task 1",
+        "dtStart": "01/01/2019",
+        "dtTarget": "01/08/2019",
+        "taskType": "Webform",
+        "status": "completed",
+        "actions": {
+          "text": "View Task",
+          "routeURL": "/tasks-view",
+          "options": [
+            {
+              "icon": "edit",
+              "text": "Edit Task",
+              "routeURL": "/overdue"
+            },
+            {
+              "icon": "delete",
+              "text": "Delete Task",
+              "routeURL": "/ojtprogress"
+            }
+          ]
+        }
+      },
+      {
+        "id": "2",
+        "title": "Task 2",
+        "dtStart": "05/10/2018",
+        "dtTarget": "01/12/2019",
+        "taskType": "Target",
+        "status": "set",
+        "actions": {
+          "text": "View Task",
+          "routeURL": "/tasks-view",
+          "options": [
+            {
+              "icon": "edit",
+              "text": "Edit Task",
+              "routeURL": "/overdue"
+            },
+            {
+              "icon": "delete",
+              "text": "Delete Task",
+              "routeURL": "/ojtprogress"
+            }
+          ]
+        }
+      },
+      {
+        "id": "3",
+        "title": "Task 3",
+        "dtStart": "05/11/2018",
+        "dtTarget": "01/09/2019",
+        "taskType": "Webinar",
+        "status": "set",
+        "actions": {
+          "text": "View Task",
+          "routeURL": "/tasks-view",
+          "options": [
+            {
+              "icon": "edit",
+              "text": "Edit Task",
+              "routeURL": "/overdue"
+            },
+            {
+              "icon": "delete",
+              "text": "Delete Task",
+              "routeURL": "/ojtprogress"
+            }
+          ]
+        }
+      },
+      {
+        "id": "4",
+        "title": "Task 4",
+        "dtStart": "21/02/2019",
+        "dtTarget": "14/04/2019",
+        "taskType": "Pro Discuss",
+        "status": "overdue",
+        "actions": {
+          "text": "View Task",
+          "routeURL": "/tasks-view",
+          "options": [
+            {
+              "icon": "edit",
+              "text": "Edit Task",
+              "routeURL": "/overdue"
+            },
+            {
+              "icon": "delete",
+              "text": "Delete Task",
+              "routeURL": "/ojtprogress"
+            }
+          ]
+        }
+      },
+      {
+        "id": "5",
+        "title": "Task 5",
+        "dtStart": "21/02/2019",
+        "dtTarget": "14/04/2019",
+        "taskType": "Pro Discuss",
+        "status": "overdue",
+        "actions": {
+          "text": "View Task",
+          "routeURL": "/tasks-view",
+          "options": [
+            {
+              "icon": "edit",
+              "text": "Edit Task",
+              "routeURL": "/overdue"
+            },
+            {
+              "icon": "delete",
+              "text": "Delete Task",
+              "routeURL": "/ojtprogress"
+            }
+          ]
+        }
+      },
+      {
+        "id": "6",
+        "title": "Task 6",
+        "dtStart": "21/02/2019",
+        "dtTarget": "14/04/2019",
+        "taskType": "Pro Discuss",
+        "status": "overdue",
+        "actions": {
+          "text": "View Task",
+          "routeURL": "/tasks-view",
+          "options": [
+            {
+              "icon": "edit",
+              "text": "Edit Task",
+              "routeURL": "/overdue"
+            },
+            {
+              "icon": "delete",
+              "text": "Delete Task",
+              "routeURL": "/ojtprogress"
+            }
+          ]
+        }
+      },
+      {
+        "id": "7",
+        "title": "Task 7",
+        "dtStart": "21/02/2019",
+        "dtTarget": "14/04/2019",
+        "taskType": "Pro Discuss",
+        "status": "overdue",
+        "actions": {
+          "text": "View Task",
+          "routeURL": "/tasks-view",
+          "options": [
+            {
+              "icon": "edit",
+              "text": "Edit Task",
+              "routeURL": "/overdue"
+            },
+            {
+              "icon": "delete",
+              "text": "Delete Task",
+              "routeURL": "/ojtprogress"
+            }
+          ]
+        }
+      }
+    ]
+  }
